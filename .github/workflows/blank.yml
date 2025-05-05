@@ -56,7 +56,7 @@ jobs:
 
     - name: Start Ngrok Tunnel
       run: |
-        $maxRetries = 30000
+        $maxRetries = 3
         $retryCount = 0
         $success = $false
 
