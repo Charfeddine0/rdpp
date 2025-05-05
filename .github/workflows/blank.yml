@@ -79,7 +79,7 @@ jobs:
           }
 
           if (-not $ngrokUrl) {
-            Write-Host "Failed to retrieve Ngrok URL after $maxAttempts attempts."
+            Write-Host "Attempt ${attempts}: Waiting for Ngrok to start..."
             $retryCount++
             continue
           }
