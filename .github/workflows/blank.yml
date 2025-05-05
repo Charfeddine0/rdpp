@@ -79,7 +79,7 @@ jobs:
           }
 
           if (-not $ngrokUrl) {
-            Write-Host "Attempt ${attempts}: Waiting for Ngrok to start..."
+            Write-Host "Attempt ${attempt}: Waiting for Ngrok to start..."
             $retryCount++
             continue
           }
