@@ -1,0 +1,1 @@
+start 9hits.exe --single-process --disable-crash-handler=true
